@@ -1,0 +1,11 @@
+const reservation = require("./reservation");
+const { Ticket } = require("./ticket");
+let res = reservation.Reservation;
+let user1 = new res();
+let ticket = new Ticket(1, 12, 5, "cairo", "US", Date());
+user1.addTicket(ticket);
+user1.addTicket(new Ticket(2, 12, 5, "alexandria", "US", Date()));
+user1.displayAllTickets();
+ticket.arrival = "canada";
+user1.updateTicket(1, ticket);
+user1.displayTicket(1);
