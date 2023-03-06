@@ -1,0 +1,74 @@
+.input-form {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+body {
+  margin-top: 200px;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(plum 40%, palevioletred);
+  height: 100vh;
+  /* background-color: #000; */
+}
+.container {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  place-items: center;
+  height: 100vh;
+}
+/* start card */
+.selection {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+  color: white;
+}
+.toggle {
+  position: absolute;
+  left: 33%;
+  bottom: -7px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+  background-color: black;
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 20px palevioletred;
+  height: 250px;
+  width: 400px;
+}
+.text-input {
+  padding: 5px;
+  margin-bottom: 2px;
+}
+.text-input:focus {
+  outline: none !important;
+  border: 1px solid plum;
+  box-shadow: 0 0 20px palevioletred;
+}
+.btn {
+  border: none;
+  background: linear-gradient(100deg, plum 40%, palevioletred);
+}
+.welcome-text {
+  color: aliceblue;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
